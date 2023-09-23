@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea House</title>
+    <!-- manrope font from google -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome link -->
+    <script
+      src="https://kit.fontawesome.com/e8b6b52c37.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- tailwind and daisy ui link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fav icon link  -->
+    <link rel="shortcut icon" href="./images/tea-cup.png" type="image/x-icon" />
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrop">
+    <header class="container mx-auto">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+          <div>
+            <h1 class="text-7xl font-extrabold">
+              It's good tea <br />time at The <br />
+              Tea House
+            </h1>
+            <p class="py-6">
+              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+              Your Taste Buds.
+            </p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+          <div>
+            <img src="/images/banner.png" class="max-w-sm" />
+            <!-- rating badge -->
+            <div
+              class="flex items-center gap-3 shadow-lg bg-white p-4 w-56 -mt-24"
+            >
+              <div>
+                <i class="fa-solid fa-star text-4xl text-amber-400"></i>
+              </div>
+              <div>
+                <h3 class="text-3xl">5:00</h3>
+                <h3>Trust pilot ratings</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto mt-24">
+      <section class="text-center">
+        <h2 class="text-5xl font-extrabold mb-5">Our Featured Products</h2>
+        <p class="max-w-3xl mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- featured tea cards -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 my-14">
+          <!-- card-1 -->
+          <div class="card bg-base-300 shadow-xl p-7">
+            <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card bg-base-300 shadow-xl p-7">
+            <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="card bg-base-300 shadow-xl p-7">
+            <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+          <!-- card-4 -->
+          <div class="card bg-base-300 shadow-xl p-7">
+            <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <h2 class="text-2xl font-bold">Shoes!</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------
+            great tea section  
+      -------------------------->
+
+      <section
+        class="container mx-auto flex flex-col md:flex-col lg:flex-row gap-12"
+      >
+        <!------------------
+            image grid 
+          ------------------->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-5 flex-1">
+          <div
+            class="bg-gradient-to-r from-red-100 to-amber-200 h-28 rounded-xl hidden md:inline lg:inline"
+          ></div>
+          <div
+            class="row-span-2 bg-slate-400 flex items-center justify-center p-9 rounded-xl"
+          >
+            <img src="./images/fresh-1.png" alt="" />
+          </div>
+          <div
+            class="row-span-2 bg-slate-400 flex items-center justify-center p-9 rounded-xl"
+          >
+            <img src="./images/fresh-2.png" alt="" />
+          </div>
+          <div
+            class="bg-gradient-to-r from-[#D9D9D9] to-[#fff] h-28 rounded-xl hidden md:inline lg:inline"
+          ></div>
+        </div>
+        <!--------------------
+           tea details 
+        ---------------------->
+        <div class="space-y-3 flex-1">
+          <h3 class="text-3xl font-extrabold">Great Tea, Freshly Presented</h3>
+          <p>
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <h3 class="xl font-extrabold">Unique Taste</h3>
+          <p>
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <h3 class="xl font-extrabold">Premium Quality</h3>
+          <p>
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
